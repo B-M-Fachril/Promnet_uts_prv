@@ -1,0 +1,355 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wpp_1{
+  background-image: url('bg.jpg');
+  background-size:cover;
+}
+
+.text_alg_right{
+  text-align: right;
+}
+
+.header_nav{
+  background-color: black;
+  font-size: 50px;
+  color:darkgray;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  height: 2cm;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+}
+
+.footer_nav{
+  background-color: black;
+  height: 2cm;
+  font-size: 12px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+}
+
+.ul {
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+  text-align: left;
+  font-size: 22px;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: rgb(100, 100, 220);
+  height: 1.8cm;
+}
+
+.ul_footer {
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+  text-align: left;
+  font-size: 22px;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: rgb(19, 19, 33);
+  height: 1.8cm;
+}
+
+.li {
+  float: left;
+  font-size: 50px;
+  color:white;
+  text-shadow: #5e5e5e;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.li_1 {
+  margin-top: 0.5cm;
+  float: center;
+  text-align: center;
+  font-size: 20px;
+
+  color:white;
+  text-shadow: #5e5e5e;
+}
+
+
+.li_a {
+  float: right;
+  display:ruby;
+  margin-right: 0.3cm;
+  color: white;
+  text-align: right;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+.li_a:hover {
+  background-color:rgb(3, 3, 215);
+  visibility: 20%;
+}
+
+.stay_navbar{
+  position: fixed;
+  top:0;
+  width: auto;
+}
+
+.text_middle{
+  text-align: center;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.text_middle_on{
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.text_boxes{
+  display:block;
+  padding: 1cm 0.5cm;
+  border-radius: 10px black;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.about_subtext{
+  float:left;
+  text-align: center;
+  margin-right: 1cm;
+  padding: 14px 16px;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.about_header{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.about_kolom {
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.kolom {
+  display: flex;
+  height: 300px;
+  width: 21.4%;
+  z-index: 2;
+}
+
+.img_resize{
+  height: 8cm;
+  width: 5cm;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  margin-top: 0.5cm;
+}
+
+.img_resize_2{
+  height: 250px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.img_resize_3{
+  height: 250px;
+  width: 200px;
+  border-radius: 30px;
+  padding-left: 40px;
+}
+
+.img_resize_4{
+  align-items: center;
+  padding-left: 3cm;
+  height: 300px;
+  width: 500px;
+}
+
+.block_pemisah{
+  background-color: rgb(0, 0, 0);
+  height: 1cm;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 250px;
+  perspective: 1000px;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'Vina Sans', sans-serif;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  border-radius: 20px;
+  border-style: dashed;
+  color: rgb(255, 255, 255);
+}
+
+.flip-box-back {
+  border-radius: 20px;
+  border-style: dashed;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transform: rotateX(180deg);
+}
+
+.margin_text{
+  padding-top: 90px;
+}
+
+.margin_text_2{
+  padding-top: 80px;
+}
+
+.font_1{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact{
+  background-color: white;
+}
+.box_input{
+  width: 5cm;
+}
+
+.black_font{
+  color: white;
+  background-color: black;
+}
+
+.about_kolom_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.kolom_1 {
+  display: flex;
+  height: 300px;
+  width: 50%;
+  z-index: 2;
+}
+
+.Sub_t_contact{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.White_text{
+  color: whitesmoke;
+}
